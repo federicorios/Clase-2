@@ -1,8 +1,10 @@
-body{ background: blue;
+body{ background: white;
 
-font-size: 20px; }
+      font-size: 30px;
 
-h1{color: blue;
+      div, section, footer, nav, aside, header, box-sizing: border-box; }
+
+h1{color: red;
 
    background-color: red; /*fondo*/
 
@@ -33,8 +35,74 @@ h2{color: #abc567;
 
 	     background-color: rgba(0,0,0,0.3); 
 
+	     background-image: url("http://jsequeiros.com/sites/default/files/imagen-cachorro-comprimir.jpg?1399003306");
+
+         background-repeat: no-repeat;
+
 	     font-family: "Sarina", italic; /*google fonts, no usar mas de 2 o 3 tipografias, siempre elegir una sans serif y con serif*/
 
-	     font-size: 20;
+
+	     font-size: 10;
 
 	     line-height: 2.1;} /*interlineado*/
+
+.link { text-decoration: none; 
+
+        color: black; 
+
+        c/*borde del elemento link */
+
+        border-radius: 3px 10px 4px 0px; /*formas del elemento de las cuatro puntas  50% */
+
+        }
+
+.link:hover{color: red;
+
+            background-color: yellow;
+
+            cursor: wait;
+             }; /*acciones del link cuando me posiciono.*/
+            .link:active{} /*acciones del link cuando presiono.*/
+            .link:visited{} /*acciones del link cuando ya presione.*/
+
+.link2 { color: red;
+
+	     text-decoration: none; 
+        
+;         border: 3px dashed green; }
+
+
+/* modelo de cajas*/
+
+.caja1 {height: 100px; 
+        width: 100px;
+        background: yellow;
+        border: 4px solid red;
+        margin: 20px;
+        padding: 30px;
+        display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+        }
+
+      nav ul li {display: inline-block; /*navegador se aplica a la herencia*/
+                 margin:  0 20px} 
+
+
+.medio { position: relative; /*RESPECTO A SU HERMANO*/ /*ABSOLUT CON RESPECTO A LA PAGINA*/
+	     top: 50px;
+	     left: 50px;
+	     background: green}
+
+
+
+/*Ejercicio de pelota*/
+
+.pelota {width: 100px;
+         height:  100px;
+         border-radius: 50%;     /*da la propiedad de los bordes*/
+         display: inline-block;}
+
+.azul {background: blue;} 
+
+.verde {background: green;} 
+
+.rojo {background: red;} 
