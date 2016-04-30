@@ -1,0 +1,40 @@
+body{ background: blue;
+
+font-size: 20px; }
+
+h1{color: blue;
+
+   background-color: red; /*fondo*/
+
+   font-family: "exo 2", sans-serif;/*fuente*/ 
+
+   font-size: 4em; /*tamaño*/
+
+   text-transform: uppercase;/*mayuscula,minuscula*/
+
+   font-style: italic; /*cursiva*/
+
+   font-weight: 900; /*negrita o normal*/ } 
+
+
+h2{color: #abc567;
+
+   background-color: #333;
+
+   font-size: 2em}
+
+.subtitulo {color: #101211;
+
+            background-color: rgba(0,0,0,0.3);
+
+            font-size: 18px} /*Clase subtitulo con sus propiedades*/
+
+.parrafo{color: #A22345; 
+
+	     background-color: rgba(0,0,0,0.3); 
+
+	     font-family: "Sarina", italic; /*google fonts, no usar mas de 2 o 3 tipografias, siempre elegir una sans serif y con serif*/
+
+	     font-size: 20;
+
+	     line-height: 2.1;} /*interlineado*/
